@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #2d3142;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -162,7 +162,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #edae49;
 		font-weight: bold;
 	}
 
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #f4fff8;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -3370,7 +3370,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: rgb(45, 49, 66);
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #2d3142;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,14 +3761,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #2d3142;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #edae49, #fc7753, #d1495b);
+				background-image: -webkit-linear-gradient(to right, #edae49, #fc7753, #d1495b);
+				background-image: -ms-linear-gradient(to right, #edae49, #fc7753, #d1495b);
+				background-image: linear-gradient(to right, #edae49, #fc7753, #d1495b);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3873,11 +3873,11 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+		background-attachment: initial;
+		background-image: url("images/pic08.jpg");
+		background-position: bottom left;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 130% 100%;
 	}
 
 		#intro p {
